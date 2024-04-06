@@ -1,0 +1,26 @@
+         7003927271 function calls in 5459.688 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1 1986.282 1986.282 5459.688 5459.688 calc.py:15(main)
+1000000001 1800.654    0.000 3473.398    0.000 csv.py:107(__next__)
+1000000001  806.454    0.000  997.778    0.000 {built-in method builtins.next}
+2000000001  499.525    0.000  499.525    0.000 csv.py:93(fieldnames)
+2000000000  175.441    0.000  175.441    0.000 {built-in method builtins.len}
+1000000000  169.710    0.000  169.710    0.000 calc.py:51(<lambda>)
+  1945890    2.915    0.000   21.614    0.000 <frozen codecs>:319(decode)
+  1945890   18.699    0.000   18.699    0.000 {built-in method _codecs.utf_8_decode}
+     8871    0.006    0.000    0.006    0.000 {built-in method builtins.print}
+    26607    0.002    0.000    0.002    0.000 {built-in method math.ceil}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 csv.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _csv.reader}
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:309(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:260(__init__)
+        1    0.000    0.000    0.000    0.000 csv.py:90(__iter__)
+
+
