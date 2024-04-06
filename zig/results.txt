@@ -1,0 +1,14 @@
+time ./calc_map-vec > /dev/null
+
+real	0m5.403s
+user	0m3.858s
+sys	    0m1.545s
+
+sh -c "sync; echo 2 > /proc/sys/vm/drop_caches"
+
+time ./calc_map-struct > /dev/null
+
+real	0m5.380s
+user	0m3.793s
+sys	    0m1.583s
+
