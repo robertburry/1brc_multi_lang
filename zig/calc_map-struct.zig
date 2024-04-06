@@ -8,7 +8,7 @@ pub fn main() !void {
     // const allocator = gpa.allocator();
 
     // const data_file = "../src/test/resources/samples/measurements-10.txt";
-    const data_file = "../data/measurements_1_000_000.txt";
+    const data_file = "../data/measurements_1_000_000_000.txt";
 
     // Attempt to open the file, 'file' is directly the file handle if successful
     const file = try std.fs.cwd().openFile(data_file, .{});

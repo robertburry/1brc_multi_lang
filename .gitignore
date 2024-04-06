@@ -48,3 +48,4 @@ out/
 out_expected.txt
 /*-timing.json
 /data/
+/zig/binaries/

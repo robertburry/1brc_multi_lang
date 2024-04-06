@@ -13,7 +13,7 @@ double round_to_nearest_tenth(double value) {
 }
 
 int main() {
-    const string data_file = "../data/measurements_1_000_000_000.txt";
+    const string data_file = "../data/measurements_1_000_000.txt";
     ifstream data(data_file);
 
     if(!data) {
