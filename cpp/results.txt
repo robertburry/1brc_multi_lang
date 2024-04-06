@@ -1,0 +1,50 @@
+time ./calc.out > /dev/null
+
+real	44m45.025s
+user	44m10.006s
+sys	 0m23.213s
+
+
+
+time ./calc_map.out > /dev/null
+
+real	17m18.100s
+user	16m03.891s
+sys	 0m21.286s
+
+
+
+time ./calc_map_unsync_c.out > /dev/null
+
+real	15m47.149s
+user	14m28.927s
+sys	 0m18.352s
+
+g++ -O3 calc_map_unsync_imp.cpp -o calc_map_unsync_imp.out
+time ./calc_map_unsync_imp.out > /dev/null
+
+real	 7m59.874s
+user	 7m01.255s
+sys	 0m20.404s
+
+gpp -O3 calc_map_unsync_imp_chunk.cpp -o calc_map_unsync_imp_chunk.out
+time ./calc_map_unsync_imp_chunk.out > /dev/null
+
+real	10m41.388s
+user	 9m28.391s
+sys	 0m29.555s
+
+g++ -O3 calc_map_unsync_imp_int.cpp -o calc_map_unsync_imp_int.out
+time ./calc_map_unsync_imp_int.out > /dev/null
+
+real	7m20.640s
+user	6m43.714s
+sys	0m17.804s
+
+g++ -O3 calc_map_unsync_imp_mmap.cpp -o calc_map_unsync_imp_mmap.out
+time ./calc_map_unsync_imp_mmap.out > /dev/null
+
+real	7m23.546s
+user	6m40.881s
+sys	0m15.192s
+
