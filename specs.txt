@@ -1,0 +1,5 @@
+system         MacBookAir6,2
+processor      Intel(R) Core(TM) i7-4650U CPU @ 1.70GHz
+memory         8GiB System Memory
+memory         4GiB SODIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+memory         4GiB SODIMM DDR3 Synchronous 1600 MHz (0.6 ns)
